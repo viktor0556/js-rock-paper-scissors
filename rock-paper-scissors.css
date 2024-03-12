@@ -1,0 +1,27 @@
+button {
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+button:hover {
+  cursor: pointer;
+  transition: 0.2s;
+  background-color: rgb(80, 80, 80);
+}
+
+button:active {
+  transition: 0.2s;
+  background-color: rgb(146, 143, 143);
+}
+
+.rock-paper-scissors-css{
+  margin-left: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
